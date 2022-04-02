@@ -1,12 +1,20 @@
 # MechaCar_Statistical_Analysis
 
 ## Linear Regression to Predict MPG
+*Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?*
+
+The variables vehicle_wieght, spolier_angle, and AWD provide a non-random amount of variance. However, ground_clearance and vehicle_length had provided a random amount of variance.
+
+*Is the slope of the linear model considered to be zero?*
+
+The slope is not considered to be zero (0), becuase when we see the p-value, it is very less than 0.05. Also, this linear regression shows that some of the independent variables had an effect on the dependent variables, and if thre was no effect I would have considered the slope to be zero. 
+
+*Does this linear model predict mpg of MechaCar prototypes effectively?*
+
+I would consider this linear model of predicting the mpg of MechaCar prototypes to be effective, considering our R^2 value is 71.49%, which means that there is a 71.49% chance that we will predict the mpg values correctly, or out of 100 instances, we will approximately predict the mpg of the MechaCar correctly 71 times.  
+
 ![Screenshot (194)](https://user-images.githubusercontent.com/58046234/161165667-2713918f-728e-4b97-b0c3-68945d35dfe2.png)
 ![Screenshot (195)](https://user-images.githubusercontent.com/58046234/161165678-17f0356c-47cc-4c07-96fe-746d66ab7c2e.png)
-### **TO DO**
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Is the slope of the linear model considered to be zero? Why or why not?
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 ## Summary Statistics on Suspension Coils
 ![Screenshot (198)](https://user-images.githubusercontent.com/58046234/161384068-2f7c94c9-2310-4d49-a6b2-35b7c784a922.png)
