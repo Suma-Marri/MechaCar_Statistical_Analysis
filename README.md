@@ -24,7 +24,7 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 ## T-Tests on Suspension Coils
 
-
+By using a significance level of 95%, meaning that 95% of the time this tests results would be true. 
 
 ![Screenshot (200)](https://user-images.githubusercontent.com/58046234/161390435-f5d00ea8-e8c3-415c-8d68-b5d7e7b8ac20.png)
 ![Screenshot (201)](https://user-images.githubusercontent.com/58046234/161390438-88ac12e8-9f72-4285-a873-221df3db7b90.png) ![Screenshot (202)](https://user-images.githubusercontent.com/58046234/161390442-5ec79c48-77d8-4e6d-8a84-1bf848135d61.png)
