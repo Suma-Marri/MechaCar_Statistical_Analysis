@@ -24,15 +24,19 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 ## T-Tests on Suspension Coils
 
-By using a significance level of 95%, meaning that 95% of the time this tests results would be true. 
+By using a significance level of 95%, meaning that 95% of the time this tests results would be true. For Lot 1, we fail to reject the null hypothesis because the p-value equals 1. For Lot 2, we fail to reject the null hypothesis again because the p-value equals 0.6072. However, for Lot 3, we can reject the null hypothesis again because the p-value equals 0.04168.
 
 ![Screenshot (200)](https://user-images.githubusercontent.com/58046234/161390435-f5d00ea8-e8c3-415c-8d68-b5d7e7b8ac20.png)
 ![Screenshot (201)](https://user-images.githubusercontent.com/58046234/161390438-88ac12e8-9f72-4285-a873-221df3db7b90.png) ![Screenshot (202)](https://user-images.githubusercontent.com/58046234/161390442-5ec79c48-77d8-4e6d-8a84-1bf848135d61.png)
 
-### **TO DO**
-then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 ## Study Design: MechaCar vs Competition
+This study was about comapring MachaCar's models and diffrent manufactures in the last 3 years.
+
 What metric or metrics are you going to test?
+- Safety Feature Rating, Malfunctions/recalls, Current Price, Type of Engine (ex. electric, gasoline, etc.), Average Cost of Ownership, MPG, etc.
 What is the null hypothesis or alternative hypothesis?
+- The null hypothesis is that MechaCar is fairly priced based on its performance of key factors for its genre.
+- The alternative hypothesis is that MechaCar is *not* priced correctly based on performance of key factors for its genre.
 What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+- A multiple linear regression could be used to determine the factors that have the highest correlation with the list selling price. We can also see which 2 variables together can imapact the list selling price.
+
